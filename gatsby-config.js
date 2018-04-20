@@ -9,5 +9,6 @@ module.exports = {
                 name: "markdown-pages"
             },
         },
+        `gatsby-transformer-remark`
     ]
 };

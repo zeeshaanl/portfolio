@@ -1,13 +1,26 @@
 import React from "react"
 import Link from "gatsby-link";
+import { Parallax, Background } from 'react-parallax';
+import mainLogo from '/Users/zeeshaanlakdawala/portfolio/static/img/background.jpeg';
 import './index.scss';
 
-export default () => <div style={{ color: `tomato` }}>
-    <h1>Welcome to my site!</h1>
-    <p>What a world.</p>
-    <img src="https://source.unsplash.com/random/400x200" alt="" />
-    <br />
-    <div>
-        <Link to="/page-2/">Link</Link>
-    </div>
+export default () => <div>
+    <Parallax
+        bgImage={'https://images.unsplash.com/photo-1515704089429-fd06e6668458'}
+        bgImageAlt=""
+        strength={200}
+    >
+        <div className='c-intro-message'>
+            Hi, I'm Zeeshaan, a fullstack developer based in Hamburg, Germany.
+        </div>
+    </Parallax>
+    <Parallax
+        bgImage={mainLogo}
+        bgImageAlt=""
+        strength={200}
+    >
+        <div style={{ height: '100vh' }}>
+            <Link to="/page-2/">Link</Link>
+        </div>
+    </Parallax>
 </div>

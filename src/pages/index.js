@@ -1,7 +1,7 @@
 import React from "react"
 import Link from "gatsby-link";
 import { Parallax, Background } from 'react-parallax';
-import mainLogo from '/Users/zeeshaanlakdawala/portfolio/static/img/background.jpeg';
+import mainLogo from '../../static/img/background.jpeg';
 import './index.scss';
 
 export default () => <div>

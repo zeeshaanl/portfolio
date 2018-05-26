@@ -9,7 +9,7 @@ import './index.scss';
 export default () => <div>
     <Helmet>
         <meta charSet="utf-8" />
-        <title>Welcome to Zeeshaan's Portfolio</title>
+        <title>Zeeshaan's Portfolio</title>
         <link rel="stylesheet"
               href="https://fonts.googleapis.com/css?family=Sunflower" />
     </Helmet>

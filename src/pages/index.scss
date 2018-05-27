@@ -2,14 +2,22 @@ body {
 	background-color: beige;
 	margin: 0 !important;
 	padding: 0 !important;
+	font-family: Handlee, sans-serif;
 }
 
 .c-intro-message {
 	height: 100vh;
 	color: white;
-	box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+	box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
 	text-align: center;
 	margin-top: 6%;
 	font-size: 2.5rem;
-	font-family: Sunflower, sans-serif;
+}
+
+.c-header {
+	color: white;
+}
+
+.c-about-message {
+	color: white;
 }

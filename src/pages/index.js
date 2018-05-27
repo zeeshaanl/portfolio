@@ -19,7 +19,7 @@ export default () => <div>
         strength={200}
     >
         <div className='c-intro-message'>
-            Hi, I'm Zeeshaan, a fullstack developer based in Hamburg, Germany.
+            I'm Zeeshaan, a fullstack javascript developer based in Hamburg, Germany.
         </div>
     </Parallax>
     <div style={{ height: '100vh', textAlign: 'center' }}>

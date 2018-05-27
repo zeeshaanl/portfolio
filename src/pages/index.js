@@ -23,6 +23,12 @@ export default () => <div>
         </div>
     </Parallax>
     <div style={{ height: '100vh', textAlign: 'center' }}>
+        <h1>About</h1>
+        <p>
+            I enjoy building MVPs from top to bottom and testing the potential and viability of ideas, with code that not only a mother could love.
+        </p>
+    </div>
+    <div style={{ height: '100vh', textAlign: 'center' }}>
         <h1>Projects</h1>
         <Link to="/page-2/">Link</Link>
     </div>

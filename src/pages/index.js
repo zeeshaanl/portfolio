@@ -27,8 +27,8 @@ export default () => <div>
                 </div>
                 <ChatAnswer>
                     <span onClick={() => scroller.scrollTo('about', {
-                        duration: 750,
-                        delay: 50,
+                        duration: 700,
+                        delay: 0,
                         smooth: true
                     })}>
                         About

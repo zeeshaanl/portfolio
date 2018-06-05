@@ -3,6 +3,13 @@ body {
 	margin: 0 !important;
 	padding: 0 !important;
 	font-family: Open Sans, sans-serif;
+	font-size: 1rem;
+}
+
+@media (max-width: 767px) {
+	body {
+		font-size: 0.6rem;
+	}
 }
 
 .c-intro {
@@ -34,9 +41,9 @@ body {
 	border-radius: 5px;
 	background-color: #0067b3;
 	color: white;
-	padding: 1rem;
+	padding: 1em;
 	position: relative;
-	font-size: 1.5rem;
+	font-size: 1.5em;
 }
 
 .c-intro__message:after {

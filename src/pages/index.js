@@ -23,7 +23,7 @@ export default () => <div>
                 <div className='c-intro__message'>
                     Hey!<br />
                     I'm Zeeshaan, a <strong>Fullstack Javascript Developer</strong> living in Hamburg, Germany.<br />
-                    How can I help you today?
+                    What would you like to know?
                 </div>
                 <ChatAnswer>
                     <span onClick={() => scroller.scrollTo('about', {

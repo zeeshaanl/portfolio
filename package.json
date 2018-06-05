@@ -17,6 +17,7 @@
     "gatsby-transformer-remark": "^1.7.41",
     "netlify-cms": "^1.8.4",
     "react-helmet": "^5.2.0",
-    "react-parallax": "^1.7.0"
+    "react-parallax": "^1.7.0",
+    "react-scroll": "^1.7.9"
   }
 }

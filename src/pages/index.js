@@ -13,8 +13,8 @@ export default () => <div>
     <Helmet>
         <meta charSet="utf-8" />
         <title>Zeeshaan's Portfolio</title>lisbonCropped.png
-        <link rel="stylesheet"
-              href="https://fonts.googleapis.com/css?family=Open Sans" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+            {/*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans" />*/}
     </Helmet>
     <div className='c-intro'>
         <div className='c-intro__question'>

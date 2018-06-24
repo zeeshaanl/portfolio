@@ -1,7 +1,6 @@
 import React from "react"
 import Link from "gatsby-link";
 import { Parallax, Background } from 'react-parallax';
-import { Helmet } from "react-helmet";
 import { Element, scroller } from 'react-scroll'
 
 import introPic from '../../static/img/lisbonCropped.png';
@@ -10,12 +9,12 @@ import './index.scss';
 import ChatAnswer from '../components/ChatAnswer';
 
 export default () => <div>
-    <Helmet>
-        <meta charSet="utf-8" />
-        <title>Zeeshaan's Portfolio</title>lisbonCropped.png
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
-            {/*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans" />*/}
-    </Helmet>
+    {/*<Helmet>*/}
+        {/*<meta charSet="utf-8" />*/}
+        {/*<title>Zeeshaan's Portfolio</title>lisbonCropped.png*/}
+        {/*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />*/}
+            {/*/!*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans" />*!/*/}
+    {/*</Helmet>*/}
     <div className='c-intro'>
         <div className='c-intro__question'>
             <img className='c-intro__image' src={introPic} />

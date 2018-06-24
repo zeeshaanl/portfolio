@@ -9,7 +9,6 @@ module.exports = {
                 name: "markdown-pages"
             },
         },
-        `gatsby-transformer-remark`,
-        `gatsby-plugin-react-helmet`
+        `gatsby-transformer-remark`
     ]
 };

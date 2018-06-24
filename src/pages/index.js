@@ -7,6 +7,7 @@ import introPic from '../../static/img/lisbonCropped.png';
 import aboutPic from '../../static/img/portfolio-background.jpeg';
 import './index.scss';
 import ChatAnswer from '../components/ChatAnswer';
+import Button from "@material-ui/core/Button";
 
 export default () => <div>
     {/*<Helmet>*/}
@@ -17,6 +18,9 @@ export default () => <div>
     {/*</Helmet>*/}
     <div className='c-intro'>
         <div className='c-intro__question'>
+            {/*<Button variant="raised" color="default">*/}
+                  {/*Hello World*/}
+                {/*</Button>*/}
             <img className='c-intro__image' src={introPic} />
             <div className='c-intro-message-container'>
                 <div className='c-intro__message'>

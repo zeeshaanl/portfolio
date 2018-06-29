@@ -76,7 +76,7 @@ export default () => <div>
             <div style={{ height: '100vh', textAlign: 'center' }}>
                 <h1 className='c-header'>About</h1>
                 <h2 className='c-about-message'>
-                    I enjoy building products from top to bottom and testing the potential and viability of ideas.
+                    I enjoy building products from start to finish and testing the potential and viability of ideas.
                 </h2>
             </div>
         </Parallax>

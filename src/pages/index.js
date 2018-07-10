@@ -25,7 +25,7 @@ export default () => <div>
             <div className='c-intro-message-container'>
                 <div className='c-intro__message'>
                     Hey!<br />
-                    I'm Zeeshaan, entrepreneur and full stack developer specialising in Javascript projects.<br />
+                    I'm Zeeshaan, full stack developer specialising in Javascript projects and currently based in Hamburg, Germany.<br />
                 </div>
                 <div className='c-answer-bubble-container'>
                     <ChatAnswer className='c-answer-bubble' onClick={() => scrollerFunction('experience')}>

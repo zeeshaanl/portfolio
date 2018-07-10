@@ -1,20 +1,16 @@
 import React from "react"
-import Link from "gatsby-link";
+// import Link from "gatsby-link";
 import { Parallax, Background } from 'react-parallax';
 import { Element, scroller } from 'react-scroll'
 
 import introPic from '../../static/img/lisbonCropped.png';
-import aboutPic from '../../static/img/portfolio-background.jpeg';
 import './index.scss';
 import ChatAnswer from '../components/ChatAnswer/ChatAnswer';
 import Experience from '../components/Experience/Experience';
 import Languages from '../components/Languages/Languages';
 import ExtraCurriculars from '../components/ExtraCurriculars/ExtraCurriculars';
 import Contact from '../components/Contact/Contact';
-import Button from "@material-ui/core/Button";
 import Helmet from 'react-helmet';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
 
 export default () => <div>
     <Helmet>
@@ -25,7 +21,6 @@ export default () => <div>
     </Helmet>
     <div className='c-intro'>
         <div className='c-intro__question'>
-            {/*</Button>*/}
             <img className='c-intro__image' src={introPic} />
             <div className='c-intro-message-container'>
                 <div className='c-intro__message'>

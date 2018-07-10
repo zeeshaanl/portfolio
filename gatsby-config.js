@@ -9,12 +9,6 @@ module.exports = {
                 name: "markdown-pages"
             },
         },
-        {
-            resolve: 'gatsby-plugin-material-ui',
-            options: {
-                pathToTheme: 'src/materialUiTheme.js',
-            },
-        },
         `gatsby-transformer-remark`
     ]
 };

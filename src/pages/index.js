@@ -6,102 +6,78 @@ import { Element, scroller } from 'react-scroll'
 import introPic from '../../static/img/lisbonCropped.png';
 import aboutPic from '../../static/img/portfolio-background.jpeg';
 import './index.scss';
-import ChatAnswer from '../components/ChatAnswer';
+import ChatAnswer from '../components/ChatAnswer/ChatAnswer';
+import Experience from '../components/Experience/Experience';
+import Languages from '../components/Languages/Languages';
+import ExtraCurriculars from '../components/ExtraCurriculars/ExtraCurriculars';
+import Contact from '../components/Contact/Contact';
 import Button from "@material-ui/core/Button";
+import Helmet from 'react-helmet';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 
 export default () => <div>
-    {/*<Helmet>*/}
-        {/*<meta charSet="utf-8" />*/}
-        {/*<title>Zeeshaan's Portfolio</title>lisbonCropped.png*/}
-        {/*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />*/}
-            {/*/!*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans" />*!/*/}
-    {/*</Helmet>*/}
+    <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="utf-8" />
+        <title>Zeeshaan's Portfolio</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+    </Helmet>
     <div className='c-intro'>
         <div className='c-intro__question'>
-            {/*<Button variant="raised" color="default">*/}
-                  {/*Hello World*/}
-                {/*</Button>*/}
+            {/*</Button>*/}
             <img className='c-intro__image' src={introPic} />
             <div className='c-intro-message-container'>
                 <div className='c-intro__message'>
                     Hey!<br />
-                    I'm Zeeshaan, a <strong>Fullstack Javascript Developer</strong> living in Hamburg, Germany.<br />
-                    What would you like to know?
+                    I'm Zeeshaan, entrepreneur and full stack developer specialising in Javascript projects.<br />
                 </div>
-                <ChatAnswer>
-                    <span onClick={() => scroller.scrollTo('about', {
-                        duration: 700,
-                        delay: 0,
-                        smooth: true
-                    })}>
-                        About
-                    </span>
-                </ChatAnswer>
-                <ChatAnswer>
-                    <span onClick={() => scroller.scrollTo('skills', {
-                        duration: 750,
-                        delay: 50,
-                        smooth: true
-                    })}>
-                    Skills
-                    </span>
-                </ChatAnswer>
-                <ChatAnswer>
-                    <span onClick={() => scroller.scrollTo('projects', {
-                        duration: 750,
-                        delay: 50,
-                        smooth: true
-                    })}>
-                    Projects
-                    </span>
-                </ChatAnswer>
-                <ChatAnswer>
-                    <span onClick={() => scroller.scrollTo('contact', {
-                        duration: 750,
-                        delay: 50,
-                        smooth: true
-                    })}>
-                        Contact
-                    </span>
-                </ChatAnswer>
+                <div className='c-answer-bubble-container'>
+                    <ChatAnswer className='c-answer-bubble' onClick={() => scrollerFunction('experience')}>
+                        <span>
+                            Experience
+                        </span>
+                    </ChatAnswer>
+                    <ChatAnswer className='c-answer-bubble' onClick={() => scrollerFunction('languages')}>
+                        <span>
+                            Languages
+                        </span>
+                    </ChatAnswer>
+                    <ChatAnswer className='c-answer-bubble' onClick={() => scrollerFunction('activities')}>
+                        <span>
+                            Activites
+                        </span>
+                    </ChatAnswer>
+                    <ChatAnswer className='c-answer-bubble' onClick={() => scrollerFunction('socialMedia')}>
+                        <span>
+                            Social Media
+                        </span>
+                    </ChatAnswer>
+                </div>
             </div>
         </div>
         <div>
 
         </div>
     </div>
-    <Element name='about'>
-        <Parallax
-            blur={0}
-            bgImage={aboutPic}
-            bgImageAlt=""
-            strength={200}
-        >
-            <div style={{ height: '100vh', textAlign: 'center' }}>
-                <h1 className='c-header'>About</h1>
-                <h2 className='c-about-message'>
-                    I enjoy building products from top to bottom and testing the potential and viability of ideas.
-                </h2>
-            </div>
-        </Parallax>
+    <Element name='experience'>
+        <Experience />
     </Element>
-    <Element name='projects'>
-        <div style={{ height: '100vh', textAlign: 'center' }}>
-            <h1>Projects</h1>
-            {/*<Link to="/page-2/">Link</Link>*/}
-        </div>
+    <Element name='languages'>
+        <Languages />
     </Element>
-    <Element name='skills'>
-        <div style={{ height: '100vh', textAlign: 'center' }}>
-            <h1>Skills</h1>
-            {/*<Link to="/page-2/">Link</Link>*/}
-        </div>
+    <Element name='activities'>
+        <ExtraCurriculars />
     </Element>
-    <Element name='contact'>
-        <div style={{ height: '100vh', textAlign: 'center' }}>
-            <h1>Contact</h1>
-            {/*<Link to="/page-2/">Link</Link>*/}
-        </div>
+    <Element name='socialMedia'>
+        <Contact />
     </Element>
-
 </div>
+
+const scrollerFunction = componentName => {
+    scroller.scrollTo(componentName, {
+        duration: 700,
+        delay: 10,
+        smooth: true
+    })
+};

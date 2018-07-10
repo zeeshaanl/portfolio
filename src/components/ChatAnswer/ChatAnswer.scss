@@ -1,0 +1,27 @@
+.c-answer-bubble {
+	box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
+	background-color: lighten(#0067b3, 10%);
+	border-radius: 5px;
+	color: white;
+	font-size: 1.5em;
+	margin-top: 1rem;
+	padding: 1rem 0.6rem;
+	//width: 24%;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	user-select: none;
+	width: 12rem;
+	@media (max-width: 767px) {
+		font-size: 1.3em;
+		width: 5rem;
+	}
+}
+
+.c-answer-bubble-container > div:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.c-answer-bubble:active {
+	background-color: darken(#0067b3, 1%) !important;
+}

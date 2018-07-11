@@ -3,39 +3,54 @@ import { withStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
+import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
 
 import FlagIcon from 'react-flag-kit/lib/FlagIcon';
 
 const styles = theme => ({
-    root: {
-        display: 'flex',
-        justifyContent: 'center',
-    },
-});
+        root: {
+            display: 'flex',
+            justifyContent: 'center',
+        },
+        avatar: {
+            width: '48px',
+            height: '48px'
+        }
+    })
+;
 
 const Languages = props =>
-    <div style={{margin: '0 0 4em 0'}}>
+    <div style={{ margin: '0 0 4em 0' }}>
         <div className='c-header'>Languages</div>
         <div className={props.classes.root}>
             <List>
                 <ListItem>
-                    <Avatar>
-                        <FlagIcon code="GB" />
+                    <Avatar className={props.classes.avatar}>
+                        <FlagIcon size={36} code="GB" />
                     </Avatar>
-                    <ListItemText primary="English" secondary="Native proficiency" />
+                    <ListItemText disableTypography
+                                  primary={<Typography type="body2" style={{ fontSize: '1.2em' }}>English</Typography>}
+                                  secondary={<Typography type="body2" style={{ fontSize: '1em', color: 'rgba(0, 0, 0, 0.54)' }}>Native Proficiency</Typography>}
+                    />
                 </ListItem>
                 <ListItem>
-                    <Avatar>
-                        <FlagIcon code="DE" />
+                    <Avatar className={props.classes.avatar}>
+                        <FlagIcon size={36} code="DE" />
                     </Avatar>
-                    <ListItemText primary="German" secondary="Full professional proficiency - B2 Goethe Certification" />
+                    <ListItemText disableTypography
+                                  primary={<Typography type="body2" style={{ fontSize: '1.2em' }}>German</Typography>}
+                                  secondary={<Typography type="body2" style={{ fontSize: '1em', color: 'rgba(0, 0, 0, 0.54)' }}>Full professional proficiency - B2 Goethe Certification</Typography>}
+                    />
                 </ListItem>
                 <ListItem>
-                    <Avatar>
-                        <FlagIcon code="IN" />
+                    <Avatar className={props.classes.avatar}>
+                        <FlagIcon size={36} code="IN" />
                     </Avatar>
-                    <ListItemText primary="Hindi" secondary="Full professional proficiency" />
+                    <ListItemText disableTypography
+                                  primary={<Typography type="body2" style={{ fontSize: '1.2em' }}>Hindi</Typography>}
+                                  secondary={<Typography type="body2" style={{ fontSize: '1em', color: 'rgba(0, 0, 0, 0.54)' }}>Full professional proficiency</Typography>}
+                    />
                 </ListItem>
             </List>
         </div>

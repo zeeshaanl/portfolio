@@ -28,7 +28,9 @@ body {
 .c-intro__image {
 	display: inline-block;
 	width: 33%;
+	height: auto;
 	align-self: flex-start;
+	border-radius: 50%;
 	@media (max-width: 767px) {
 		width: 23%;
 	}
@@ -77,6 +79,7 @@ body {
 }
 
 .c-header {
+	margin-bottom: 1.5em;
 	padding: 2rem 0 0 0.5rem;
 	text-align: center;
 	font-size: 1.5em;

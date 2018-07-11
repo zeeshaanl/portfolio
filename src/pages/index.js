@@ -3,7 +3,7 @@ import React from "react"
 import { Parallax, Background } from 'react-parallax';
 import { Element, scroller } from 'react-scroll'
 
-import introPic from '../../static/img/lisbonCropped.png';
+import introPic from '../../static/img/lisbonpic.jpg';
 import './index.scss';
 import ChatAnswer from '../components/ChatAnswer/ChatAnswer';
 import Experience from '../components/Experience/Experience';
@@ -11,6 +11,8 @@ import Languages from '../components/Languages/Languages';
 import ExtraCurriculars from '../components/ExtraCurriculars/ExtraCurriculars';
 import Contact from '../components/Contact/Contact';
 import Helmet from 'react-helmet';
+
+// Icon list - https://andy-pro.github.io/icon-viewer/iconlist/all
 
 export default () => <div>
     <Helmet>

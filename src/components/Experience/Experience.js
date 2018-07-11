@@ -11,7 +11,7 @@ import './Experience.scss';
 const Experience = () =>
     <div style={{ backgroundColor: '#ebebeb' }}>
         <div className='c-header'>Work Experience and Education</div>
-        <VerticalTimeline>
+        <VerticalTimeline animate={false}>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="September 2015 - June 2018 (2 years and 10 months)"
@@ -23,8 +23,8 @@ const Experience = () =>
                 <div className="vertical-timeline-element-subtitle">Hamburg, Germany <FlagIcon code="DE" /></div>
                 <p>
                     Worked on a wide range of projects in the frontend and backend. Specialised in building
-                    Single Page Applications with React.js.<br />
-                    Javascript | React.js | Node.js | HTML/CSS | AWS
+                    Single Page Applications with React.js.
+                    <div className='c-technologies'>Javascript | React.js | Node.js | HTML/CSS | AWS</div>
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -38,7 +38,7 @@ const Experience = () =>
                 <div className="vertical-timeline-element-subtitle">České Budějovice, Czech Republic <FlagIcon code="CZ" /></div>
                 <p>
                     Worked on front end projects including dashboards and other frontend components for clients of the company.<br />
-                    Javascript | JQuery | HTML/CSS
+                    <div className='c-technologies'>Javascript | JQuery | HTML/CSS</div>
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -52,7 +52,7 @@ const Experience = () =>
                 <div className="vertical-timeline-element-subtitle">Mumbai, India <FlagIcon code="IN" /></div>
                 <p>
                     Development work for high a high traffic Indian e-ticketing website. <br />
-                    PHP | Javascript | JQuery | HTML/CSS
+                    <div className='c-technologies'>PHP | Javascript | JQuery | HTML/CSS</div>
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

@@ -8,6 +8,7 @@ import Avatar from '@material-ui/core/Avatar';
 import FaGithub from 'react-icons/lib/fa/github';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaFacebook from 'react-icons/lib/fa/facebook';
+import FaEnvelope from 'react-icons/lib/fa/envelope';
 
 import FlagIcon from 'react-flag-kit/lib/FlagIcon';
 
@@ -24,23 +25,31 @@ const Contact = props =>
         <div className='c-header'>Social Media</div>
         <div className={props.classes.root}>
             <List>
-                <ListItem button onClick={() => window.open('https://github.com/zeeshaanl','_blank')}>
+                <ListItem button onClick={() => window.open('https://github.com/zeeshaanl', '_blank')}>
                     <ListItemIcon>
                         <FaGithub />
                     </ListItemIcon>
                     <ListItemText primary="Github" />
                 </ListItem>
-                <ListItem button onClick={() => window.open('https://www.linkedin.com/in/zeeshaan-lakdawala-2b8b712b/','_blank')}>
+                <ListItem button onClick={() => window.open('https://www.linkedin.com/in/zeeshaan-lakdawala-2b8b712b/', '_blank')}>
                     <ListItemIcon>
                         <FaLinkedin />
                     </ListItemIcon>
                     <ListItemText primary="LinkedIn" />
                 </ListItem>
-                <ListItem button onClick={() => window.open('https://www.facebook.com/zeeshaan.lakdawala','_blank')}>
+
+                <ListItem button onClick={() => window.open('https://www.facebook.com/zeeshaan.lakdawala', '_blank')}>
                     <ListItemIcon>
                         <FaFacebook />
                     </ListItemIcon>
                     <ListItemText primary="Facebook" />
+                </ListItem>
+
+                <ListItem button onClick={() => window.location.href='mailto:zeeshaanl@gmail.com'}>
+                    <ListItemIcon>
+                        <FaEnvelope />
+                    </ListItemIcon>
+                    <ListItemText primary="zeeshaanl@gmail.com" />
                 </ListItem>
             </List>
         </div>

@@ -13,7 +13,7 @@ import FlagIcon from 'react-flag-kit/lib/FlagIcon';
 const ExtraCurriculars = () =>
     <div style={{ backgroundColor: '#ebebeb' }}>
         <div className='c-header'>Activities</div>
-        <VerticalTimeline>
+        <VerticalTimeline animate={false}>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="September 2015 - current"

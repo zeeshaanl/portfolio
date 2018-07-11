@@ -24,7 +24,7 @@ const Experience = () =>
                 <p>
                     Worked on a wide range of projects in the frontend and backend. Specialised in building
                     Single Page Applications with React.js.
-                    <div className='c-technologies'>Javascript | React.js | Node.js | HTML/CSS | AWS</div>
+                    <span className='c-technologies'>Javascript | React.js | Node.js | HTML/CSS | AWS</span>
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -38,7 +38,7 @@ const Experience = () =>
                 <div className="vertical-timeline-element-subtitle">České Budějovice, Czech Republic <FlagIcon code="CZ" /></div>
                 <p>
                     Worked on front end projects including dashboards and other frontend components for clients of the company.<br />
-                    <div className='c-technologies'>Javascript | JQuery | HTML/CSS</div>
+                    <span className='c-technologies'>Javascript | JQuery | HTML/CSS</span>
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -52,7 +52,7 @@ const Experience = () =>
                 <div className="vertical-timeline-element-subtitle">Mumbai, India <FlagIcon code="IN" /></div>
                 <p>
                     Development work for high a high traffic Indian e-ticketing website. <br />
-                    <div className='c-technologies'>PHP | Javascript | JQuery | HTML/CSS</div>
+                    <span className='c-technologies'>PHP | Javascript | JQuery | HTML/CSS</span>
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

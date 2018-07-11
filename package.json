@@ -13,6 +13,7 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "gatsby": "^2.0.0-beta.9",
     "gatsby-link": "^1.6.44",
+    "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-material-ui": "^0.1.3",
     "gatsby-plugin-netlify-cms": "next",
     "gatsby-plugin-react-helmet": "^2.0.11",

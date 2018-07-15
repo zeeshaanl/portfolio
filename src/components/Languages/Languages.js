@@ -63,7 +63,7 @@ const Languages = props =>
                 </List>
             </div>
             <div className='c-skills-paragraph u-text-center'>
-                <p>I believe in being <b>customer focused</b> and having <b>product</b> skills.</p>
+                <p>I believe in being <b>customer focused</b> and <b>data driven.</b></p>
                 <p>I am in the process of learning the principles of <b>Domain Driven Design</b> and <b>Clean Architecture.</b></p>
                 <p>I strive to develop new projects using <b>Test Driven Development.</b></p>
                 <p>I'm well-versed with <b>SQL and NoSQL databases.</b></p>

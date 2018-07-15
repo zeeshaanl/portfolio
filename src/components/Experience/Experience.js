@@ -22,9 +22,9 @@ const Experience = () =>
                 <h4 className="vertical-timeline-element-subtitle">Happycar</h4>
                 <div className="vertical-timeline-element-subtitle">Hamburg, Germany <FlagIcon code="DE" /></div>
                 <p>
-                    Worked on a wide range of projects in the frontend and backend. Specialised in building
+                    Worked on a wide range of projects in the frontend and backend. The projects included building
                     Single Page Applications with React.js.
-                    <span className='c-technologies'>Javascript | React.js | Node.js | HTML/CSS | AWS</span>
+                    <span className='c-technologies'>Javascript | React.js | Node.js | HTML/CSS | AWS | End to end UI tests</span>
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

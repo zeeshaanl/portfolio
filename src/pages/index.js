@@ -37,7 +37,7 @@ export default () => <div>
                     </ChatAnswer>
                     <ChatAnswer className='c-answer-bubble' onClick={() => scrollerFunction('languages')}>
                         <span>
-                            Languages
+                            Skills
                         </span>
                     </ChatAnswer>
                     <ChatAnswer className='c-answer-bubble' onClick={() => scrollerFunction('activities')}>
@@ -47,7 +47,7 @@ export default () => <div>
                     </ChatAnswer>
                     <ChatAnswer className='c-answer-bubble' onClick={() => scrollerFunction('socialMedia')}>
                         <span>
-                            Social Media
+                            Find Me
                         </span>
                     </ChatAnswer>
                 </div>

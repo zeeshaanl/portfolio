@@ -4,13 +4,10 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import Avatar from '@material-ui/core/Avatar';
 import FaGithub from 'react-icons/lib/fa/github';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaFacebook from 'react-icons/lib/fa/facebook';
 import FaEnvelope from 'react-icons/lib/fa/envelope';
-
-import FlagIcon from 'react-flag-kit/lib/FlagIcon';
 
 const styles = theme => ({
     root: {
@@ -22,7 +19,7 @@ const styles = theme => ({
 
 const Contact = props =>
     <div style={{ margin: '0 0 4em 0' }}>
-        <div className='c-header'>Social Media</div>
+        <div className='c-header'>Find Me</div>
         <div className={props.classes.root}>
             <List>
                 <ListItem button onClick={() => window.open('https://github.com/zeeshaanl', '_blank')}>

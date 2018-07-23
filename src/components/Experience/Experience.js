@@ -18,7 +18,7 @@ const Experience = () =>
                 iconStyle={{ background: '#0a6ab8', color: '#fff' }}
                 icon={<MdWork />}
             >
-                <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
+                <h3 className="vertical-timeline-element-title">Front End Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">Happycar</h4>
                 <div className="vertical-timeline-element-subtitle">Hamburg, Germany <FlagIcon code="DE" /></div>
                 <p>

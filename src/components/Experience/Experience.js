@@ -26,7 +26,7 @@ const Experience = () =>
                     Single Page Applications with React.js. <br />
                     Built a chat bot from scratch using React/Redux in the frontend.<br />
                     Built the result view of the website which formed the core of the business.
-                    <span className='c-technologies'>Javascript | ES6 | React.js | Redux | Node.js | HTML/CSS | AWS | End to end UI tests</span>
+                    <span className='c-technologies'>Javascript | ES6 | React.js | Redux | Jest | Node.js | HTML/CSS | AWS | End to end UI tests</span>
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

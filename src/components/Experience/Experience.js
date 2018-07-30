@@ -25,8 +25,9 @@ const Experience = () =>
                     Worked on a wide range of projects in the frontend and backend. The projects included building
                     Single Page Applications with React.js. <br />
                     Built a chat bot from scratch using React/Redux in the frontend.<br />
-                    Built the result view of the website which formed the core of the business.
-                    <span className='c-technologies'>Javascript | ES6 | React.js | Redux | Jest | Node.js | HTML/CSS | AWS | End to end UI tests</span>
+                    Built the result view of the website which formed the core of the business.<br />
+                    Experienced with React Intl. for multi-language platforms.
+                    <span className='c-technologies'>Javascript | ES6 |  React.js | Redux | React Intl | Node.js | Express.js | Jest | TestCafe |  HTML/CSS | AWS | Firebase</span>
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

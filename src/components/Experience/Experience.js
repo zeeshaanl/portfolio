@@ -14,8 +14,22 @@ const Experience = () =>
         <VerticalTimeline animate={false}>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="September 2015 - June 2018 (2 years and 10 months)"
+                date="September 2018 - Current"
                 iconStyle={{ background: '#0a6ab8', color: '#fff' }}
+                icon={<MdWork />}
+            >
+                <h3 className="vertical-timeline-element-title">Freelance Front End Developer</h3>
+                <h4 className="vertical-timeline-element-subtitle">Kühne + Nagel</h4>
+                <div className="vertical-timeline-element-subtitle">Hamburg, Germany <FlagIcon code="DE" /></div>
+                <p>
+                    Working on a building an enterprise logistics dashboard from scratch.<br />
+                    <span className='c-technologies'>Javascript | Typescript | Vue.js | Jest | HTML/CSS</span>
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="September 2015 - June 2018 (2 years and 10 months)"
+                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 icon={<MdWork />}
             >
                 <h3 className="vertical-timeline-element-title">Front End Developer</h3>

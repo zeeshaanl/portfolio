@@ -35,13 +35,6 @@ const Contact = props =>
                     <ListItemText primary="LinkedIn" />
                 </ListItem>
 
-                <ListItem button onClick={() => window.open('https://www.facebook.com/zeeshaan.lakdawala', '_blank')}>
-                    <ListItemIcon>
-                        <FaFacebook />
-                    </ListItemIcon>
-                    <ListItemText primary="Facebook" />
-                </ListItem>
-
                 <ListItem button onClick={() => window.location.href='mailto:zeeshaanl@gmail.com'}>
                     <ListItemIcon>
                         <FaEnvelope />

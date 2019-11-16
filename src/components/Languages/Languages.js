@@ -64,10 +64,8 @@ const Languages = props =>
             </div>
             <div className='c-skills-paragraph u-text-center'>
                 <p>I believe in being <b>customer focused</b> and <b>data driven.</b></p>
+                <p>I love building products that solve challenging problems.</p>
                 <p>I am in the process of learning the principles of <b>Domain Driven Design</b> and <b>Clean Architecture.</b></p>
-                <p>I strive to develop new projects using <b>Test Driven Development.</b></p>
-                <p>I'm well-versed with <b>SQL and NoSQL databases.</b></p>
-                <p>I'm currently increasing my skills with <b>Amazon Web Services.</b></p>
                 <p>I keep an open mind about new languages, frameworks and concepts.</p>
             </div>
         </div>
@@ -91,7 +89,7 @@ const Languages = props =>
                         <ListItemText disableTypography
                                       primary={<Typography type="body2" style={{ fontSize: '1.2em' }}>German</Typography>}
                                       secondary={<Typography type="body2" style={{ fontSize: '1em', color: 'rgba(0, 0, 0, 0.54)' }}>Full professional proficiency
-                                          <br />(B2 Goethe Certification)</Typography>}
+                                          <br />(Goethe Certified)</Typography>}
                         />
                     </ListItem>
                     <ListItem>

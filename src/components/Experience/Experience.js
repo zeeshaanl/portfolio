@@ -14,16 +14,26 @@ const Experience = () =>
         <VerticalTimeline animate={false}>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="September 2018 - Current"
+                date="August 2019 - Current"
+                iconStyle={{ background: 'rgba(16, 155, 8, 1)', color: '#fff' }}
+                icon={<MdSchool />}
+            >
+                <h3 className="vertical-timeline-element-title">Master of Business Administration (MBA)</h3>
+                <h4 className="vertical-timeline-element-subtitle"><b>IESE Business School</b></h4>
+                <div className="vertical-timeline-element-subtitle">Barcelona, Spain <FlagIcon code="ES" /></div>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="July 2018 - August 2019 (1 year and 1 month)"
                 iconStyle={{ background: '#0a6ab8', color: '#fff' }}
                 icon={<MdWork />}
             >
                 <h3 className="vertical-timeline-element-title">Freelance Front End Developer</h3>
-                <h4 className="vertical-timeline-element-subtitle">Kühne + Nagel</h4>
+                <h4 className="vertical-timeline-element-subtitle">Kühne + Nagel, Ecoincome.world</h4>
                 <div className="vertical-timeline-element-subtitle">Hamburg, Germany <FlagIcon code="DE" /></div>
                 <p>
-                    Working on a building an enterprise logistics dashboard from scratch.<br />
-                    <span className='c-technologies'>Javascript | Typescript | Vue.js | Jest | HTML/CSS</span>
+                    Worked on a building an enterprise logistics dashboard from scratch. Helped a fledgeling startup build its prototype.<br />
+                    <span className='c-technologies'>Javascript | Typescript | Vue.js | Angular | Jest | HTML/CSS</span>
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

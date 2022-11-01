@@ -22,7 +22,6 @@ const Experience = () =>
                 <h4 className="vertical-timeline-element-subtitle">Janssen Pharmaceuticals (Johnson & Johnson)</h4>
                 <div className="vertical-timeline-element-subtitle">Düsseldorf, Germany <FlagIcon code="DE" /></div>
                 <p>
-                    Worked on a building an enterprise logistics dashboard from scratch. Helped a fledgeling startup build its prototype.<br />
                     <span className='c-technologies'>Innovation Manager | Specialist for Digital Solutions | Responsible for technical due diligence and project manager</span>
                 </p>
             </VerticalTimelineElement>

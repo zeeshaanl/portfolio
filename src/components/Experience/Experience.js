@@ -1,10 +1,10 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import MdWork from 'react-icons/lib/md/work';
-import MdSchool from 'react-icons/lib/md/school';
+import {MdWork} from 'react-icons/md';
+import {MdSchool} from 'react-icons/md';
 
-import FlagIcon from 'react-flag-kit/lib/FlagIcon';
+import {FlagIcon} from 'react-flag-kit';
 
 import './Experience.scss';
 

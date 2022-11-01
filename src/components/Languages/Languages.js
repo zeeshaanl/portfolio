@@ -6,7 +6,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
 
-import FlagIcon from 'react-flag-kit/lib/FlagIcon';
+import {FlagIcon} from 'react-flag-kit';
 import jsLogo from '../../../static/img/jsLogo.svg'
 import reactLogo from '../../../static/img/reactLogo.svg'
 import nodejsLogo from '../../../static/img/nodejsLogo.svg'

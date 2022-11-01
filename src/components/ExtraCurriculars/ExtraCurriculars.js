@@ -1,14 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import MdWork from 'react-icons/lib/md/work';
-import MdMovie from 'react-icons/lib/md/movie';
-import MdFilm from 'react-icons/lib/md/theaters';
-import MdPeople from 'react-icons/lib/md/people';
-
-import FlagIcon from 'react-flag-kit/lib/FlagIcon';
+import {MdWork} from 'react-icons/md';
+import {MdMovie} from 'react-icons/md';
+import {IoMdFilm} from 'react-icons/io';
+import {MdPeople} from 'react-icons/md';
+import {FlagIcon} from 'react-flag-kit';
 
 const ExtraCurriculars = () =>
     <div style={{ backgroundColor: '#ebebeb' }}>
@@ -45,7 +43,7 @@ const ExtraCurriculars = () =>
                 className="vertical-timeline-element--work"
                 date="March 2014 - February 2015 (1 year)"
                 iconStyle={{ background: 'red', color: 'white' }}
-                icon={<MdFilm />}
+                icon={<IoMdFilm />}
             >
                 <h3 className="vertical-timeline-element-title">Volunteer</h3>
                 <h4 className="vertical-timeline-element-subtitle">TIFF - Toronto International Film Festival</h4>

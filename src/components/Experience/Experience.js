@@ -14,6 +14,20 @@ const Experience = () =>
         <VerticalTimeline animate={false}>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
+                date="July 2021 - Current"
+                iconStyle={{ background: '#0a6ab8', color: '#fff' }}
+                icon={<MdWork />}
+            >
+                <h3 className="vertical-timeline-element-title">Digital Solution Specialist</h3>
+                <h4 className="vertical-timeline-element-subtitle">Janssen Pharmaceuticals (Johnson & Johnson)</h4>
+                <div className="vertical-timeline-element-subtitle">Düsseldorf, Germany <FlagIcon code="DE" /></div>
+                <p>
+                    Worked on a building an enterprise logistics dashboard from scratch. Helped a fledgeling startup build its prototype.<br />
+                    <span className='c-technologies'>Innovation Manager | Specialist for Digital Solutions | Responsible for technical due diligence and project manager</span>
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
                 date="August 2019 - Current"
                 iconStyle={{ background: 'rgba(16, 155, 8, 1)', color: '#fff' }}
                 icon={<MdSchool />}

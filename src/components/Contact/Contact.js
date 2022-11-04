@@ -4,10 +4,10 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import FaGithub from 'react-icons/lib/fa/github';
-import FaLinkedin from 'react-icons/lib/fa/linkedin';
-import FaFacebook from 'react-icons/lib/fa/facebook';
-import FaEnvelope from 'react-icons/lib/fa/envelope';
+import {FaGithub} from 'react-icons/fa';
+import {FaLinkedin} from 'react-icons/fa';
+import {FaFacebook} from 'react-icons/fa';
+import {FaEnvelope} from 'react-icons/fa';
 
 const styles = theme => ({
     root: {

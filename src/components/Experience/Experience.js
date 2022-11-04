@@ -1,10 +1,10 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import MdWork from 'react-icons/lib/md/work';
-import MdSchool from 'react-icons/lib/md/school';
+import {MdWork} from 'react-icons/md';
+import {MdSchool} from 'react-icons/md';
 
-import FlagIcon from 'react-flag-kit/lib/FlagIcon';
+import {FlagIcon} from 'react-flag-kit';
 
 import './Experience.scss';
 
@@ -22,12 +22,12 @@ const Experience = () =>
                 <h4 className="vertical-timeline-element-subtitle">Janssen Pharmaceuticals (Johnson & Johnson)</h4>
                 <div className="vertical-timeline-element-subtitle">Düsseldorf, Germany <FlagIcon code="DE" /></div>
                 <p>
-                    <span className='c-technologies'>Innovation Manager | Specialist for Digital Solutions | Responsible for technical due diligence and project management</span>
+                    <span className='c-technologies'>Innovation Manager | Responsible for technical project management and innovation strategy</span>
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="August 2019 - Current"
+                date="August 2019 - May 2020"
                 iconStyle={{ background: 'rgba(16, 155, 8, 1)', color: '#fff' }}
                 icon={<MdSchool />}
             >

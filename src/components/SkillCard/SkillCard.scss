@@ -1,0 +1,39 @@
+.c-skillcard {
+	margin: 1rem;
+	display: flex;
+	align-items: center;
+	//box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
+	//background-color: lighten(rgba(0, 82, 2, 0.26), 10%);
+	//border: 1px solid darkgreen;
+	border-radius: 8px;
+	//color: white;
+	font-size: 1.3em;
+	padding: 1rem;
+	//cursor: pointer;
+	text-align: center;
+	user-select: none;
+	//width: 12rem;
+	@media (max-width: 767px) {
+		font-size: 1.1em;
+		//width: 5rem;
+	}
+
+	.skillcard-image {
+		width: 70px;
+		margin-right: 0.6rem;
+		height: auto;
+	}
+
+	.skillcard-text {
+		font-size: 1.2rem;
+		//width: 50px;
+	}
+}
+
+.c-answer-bubble-container > div:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.c-answer-bubble:active {
+	background-color: darken(#0067b3, 1%) !important;
+}

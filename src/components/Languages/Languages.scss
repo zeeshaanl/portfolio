@@ -6,6 +6,13 @@
 	}
 }
 
+.c-skills__list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
 .c-languages {
 	margin-top: 3em;
 }

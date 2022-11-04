@@ -10,11 +10,13 @@ import {FlagIcon} from 'react-flag-kit';
 import jsLogo from '../../../static/img/jsLogo.svg'
 import reactLogo from '../../../static/img/reactLogo.svg'
 import nodejsLogo from '../../../static/img/nodejsLogo.svg'
+import awsLogo from '../../../static/img/awsLogo.png'
+import firebaseLogo from '../../../static/img/firebaseLogo.png'
+import typescriptLogo from '../../../static/img/typescriptLogo.png'
 import expressLogo from '../../../static/img/expressLogo.png'
-import firebaseLogo from '../../../static/img/firebaseLogo.svg'
-import awsLogo from '../../../static/img/awsLogo.svg'
 
 import './Languages.scss'
+import SkillCard from "../SkillCard/SkillCard";
 
 const styles = theme => ({
         root: {
@@ -33,34 +35,14 @@ const Languages = props =>
     <div style={{ margin: '0 0 4em 0' }}>
         <div className='c-header'>Skills</div>
         <div>
-            <h3 className='c-skills__header u-text-center'>Favourite Technologies</h3>
-            <div className={props.classes.root}>
-                <List>
-                    <ListItem>
-                        <Avatar className={props.classes.avatar}>
-                            <img height='48px' width='48px' src={jsLogo} />
-                        </Avatar>
-                        <ListItemText disableTypography
-                                      primary={<Typography type="body2" style={{ fontSize: '1.2em' }}>Javascript</Typography>}
-                        />
-                    </ListItem>
-                    <ListItem>
-                        <Avatar className={props.classes.avatar}>
-                            <img height='48px' width='48px' src={reactLogo} />
-                        </Avatar>
-                        <ListItemText disableTypography
-                                      primary={<Typography type="body2" style={{ fontSize: '1.2em' }}>React.js</Typography>}
-                        />
-                    </ListItem>
-                    <ListItem>
-                        <Avatar className={props.classes.avatar}>
-                            <img height='48px' width='48px' src={nodejsLogo} />
-                        </Avatar>
-                        <ListItemText disableTypography
-                                      primary={<Typography type="body2" style={{ fontSize: '1.2em' }}>Node.js</Typography>}
-                        />
-                    </ListItem>
-                </List>
+            <h3 className='c-skills__header u-text-center'>Favourite Tech</h3>
+            <div className='c-skills__list'>
+                <SkillCard imageUrl={jsLogo} skillName="Javascript"/>
+                <SkillCard imageUrl={typescriptLogo} skillName="Typescript"/>
+                <SkillCard imageUrl={reactLogo} skillName="React.js"/>
+                <SkillCard imageUrl={nodejsLogo} skillName="Node.js"/>
+                <SkillCard imageUrl={awsLogo} skillName="Amazon Web Services"/>
+                <SkillCard imageUrl={firebaseLogo} skillName="Firebase"/>
             </div>
             <div className='c-skills-paragraph u-text-center'>
                 <p>I believe in being <b>customer focused</b> and <b>data driven.</b></p>
@@ -88,7 +70,7 @@ const Languages = props =>
                         <ListItemText disableTypography
                                       primary={<Typography type="body2" style={{ fontSize: '1.2em' }}>German</Typography>}
                                       secondary={<Typography type="body2" style={{ fontSize: '1em', color: 'rgba(0, 0, 0, 0.54)' }}>Full professional proficiency
-                                          <br />(Goethe Certified)</Typography>}
+                                          <br />(Goethe-C1)</Typography>}
                         />
                     </ListItem>
                     <ListItem>

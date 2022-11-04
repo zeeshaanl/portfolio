@@ -28,7 +28,7 @@ const ExtraCurriculars = () =>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="September 2017 - current"
+                date="September 2017 - August 2019"
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 icon={<MdWork />}
             >
